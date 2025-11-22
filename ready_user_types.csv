@@ -1,0 +1,656 @@
+"country","year","road_user_type","percent"
+"Angola",2016,"Drivers/passengers of 4-wheeled vehicles",59.5
+"Angola",2016,"Pedestrians",40.5
+"Angola",2016,"Other/unspecified road users",0
+"Benin",2016,"Drivers/passengers of 4-wheeled vehicles",16.8
+"Benin",2016,"Drivers/passengers of motorized 2- or 3-wheelers",56.5
+"Benin",2016,"Cyclists",0.8
+"Benin",2016,"Pedestrians",16.8
+"Benin",2016,"Other/unspecified road users",9.1
+"Botswana",2016,"Drivers/passengers of 4-wheeled vehicles",63.1
+"Botswana",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0
+"Botswana",2016,"Cyclists",2
+"Botswana",2016,"Pedestrians",24.7
+"Botswana",2016,"Other/unspecified road users",10.2
+"Cote d'Ivoire",2016,"Drivers/passengers of 4-wheeled vehicles",11.1
+"Cote d'Ivoire",2016,"Drivers/passengers of motorized 2- or 3-wheelers",35
+"Cote d'Ivoire",2016,"Cyclists",0.3
+"Cote d'Ivoire",2016,"Pedestrians",40.2
+"Cote d'Ivoire",2016,"Other/unspecified road users",13.4
+"Democratic Republic of the Congo",2016,"Drivers/passengers of 4-wheeled vehicles",36.1
+"Democratic Republic of the Congo",2016,"Drivers/passengers of motorized 2- or 3-wheelers",11.7
+"Democratic Republic of the Congo",2016,"Cyclists",0
+"Democratic Republic of the Congo",2016,"Pedestrians",51.9
+"Democratic Republic of the Congo",2016,"Other/unspecified road users",0.3
+"Comoros",2016,"Drivers/passengers of 4-wheeled vehicles",65.2
+"Comoros",2016,"Drivers/passengers of motorized 2- or 3-wheelers",17.4
+"Comoros",2016,"Cyclists",0
+"Comoros",2016,"Pedestrians",17.4
+"Comoros",2016,"Other/unspecified road users",0
+"Eritrea",2016,"Drivers/passengers of 4-wheeled vehicles",36.2
+"Eritrea",2016,"Drivers/passengers of motorized 2- or 3-wheelers",1.5
+"Eritrea",2016,"Cyclists",9.2
+"Eritrea",2016,"Pedestrians",25.4
+"Eritrea",2016,"Other/unspecified road users",27.7
+"Ethiopia",2016,"Drivers/passengers of 4-wheeled vehicles",0
+"Ethiopia",2016,"Pedestrians",36.7
+"Ethiopia",2016,"Other/unspecified road users",63.3
+"Ghana",2016,"Drivers/passengers of 4-wheeled vehicles",12
+"Ghana",2016,"Drivers/passengers of motorized 2- or 3-wheelers",17.9
+"Ghana",2016,"Cyclists",3.3
+"Ghana",2016,"Pedestrians",46.1
+"Ghana",2016,"Other/unspecified road users",20.7
+"Kenya",2016,"Drivers/passengers of 4-wheeled vehicles",36.4
+"Kenya",2016,"Drivers/passengers of motorized 2- or 3-wheelers",24.2
+"Kenya",2016,"Cyclists",2.4
+"Kenya",2016,"Pedestrians",37
+"Kenya",2016,"Other/unspecified road users",0
+"Madagascar",2016,"Drivers/passengers of 4-wheeled vehicles",52.9
+"Madagascar",2016,"Pedestrians",47.1
+"Madagascar",2016,"Other/unspecified road users",0
+"Mali",2016,"Drivers/passengers of 4-wheeled vehicles",27.9
+"Mali",2016,"Drivers/passengers of motorized 2- or 3-wheelers",42.3
+"Mali",2016,"Cyclists",2.4
+"Mali",2016,"Pedestrians",11.5
+"Mali",2016,"Other/unspecified road users",15.9
+"Mauritius",2016,"Drivers/passengers of 4-wheeled vehicles",16.7
+"Mauritius",2016,"Drivers/passengers of motorized 2- or 3-wheelers",45.8
+"Mauritius",2016,"Cyclists",6.9
+"Mauritius",2016,"Pedestrians",30.6
+"Mauritius",2016,"Other/unspecified road users",0
+"Malawi",2016,"Drivers/passengers of 4-wheeled vehicles",31.1
+"Malawi",2016,"Drivers/passengers of motorized 2- or 3-wheelers",3.2
+"Malawi",2016,"Cyclists",16
+"Malawi",2016,"Pedestrians",49.6
+"Malawi",2016,"Other/unspecified road users",0.1
+"Nigeria",2016,"Drivers/passengers of 4-wheeled vehicles",49.6
+"Rwanda",2016,"Drivers/passengers of 4-wheeled vehicles",46.7
+"Senegal",2016,"Drivers/passengers of 4-wheeled vehicles",46.3
+"Senegal",2016,"Pedestrians",23.1
+"South Sudan",2016,"Drivers/passengers of 4-wheeled vehicles",46.5
+"South Sudan",2016,"Pedestrians",21.5
+"Eswatini",2016,"Drivers/passengers of 4-wheeled vehicles",53.7
+"Eswatini",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0.5
+"Eswatini",2016,"Cyclists",2
+"Eswatini",2016,"Pedestrians",43.8
+"Eswatini",2016,"Other/unspecified road users",0
+"Eswatini",2013,"Drivers/passengers of 4-wheeled vehicles",62.4
+"Eswatini",2013,"Drivers/passengers of motorized 2- or 3-wheelers",2
+"Eswatini",2013,"Cyclists",2
+"Eswatini",2013,"Pedestrians",33.5
+"Seychelles",2016,"Drivers/passengers of 4-wheeled vehicles",7.8
+"Seychelles",2016,"Drivers/passengers of motorized 2- or 3-wheelers",20
+"Seychelles",2016,"Cyclists",6.7
+"Seychelles",2016,"Pedestrians",33.3
+"Seychelles",2016,"Other/unspecified road users",6.7
+"Togo",2016,"Drivers/passengers of 4-wheeled vehicles",66.7
+"Togo",2016,"Drivers/passengers of motorized 2- or 3-wheelers",71.6
+"Togo",2016,"Other/unspecified road users",11.1
+"United Republic of Tanzania",2016,"Drivers/passengers of 4-wheeled vehicles",63.9
+"United Republic of Tanzania",2016,"Drivers/passengers of motorized 2- or 3-wheelers",22.7
+"United Republic of Tanzania",2016,"Cyclists",8
+"United Republic of Tanzania",2016,"Pedestrians",29.9
+"United Republic of Tanzania",2016,"Other/unspecified road users",0.8
+"Uganda",2016,"Drivers/passengers of 4-wheeled vehicles",34
+"Uganda",2016,"Drivers/passengers of motorized 2- or 3-wheelers",33.4
+"Uganda",2016,"Cyclists",5.8
+"Uganda",2016,"Pedestrians",39.5
+"Uganda",2016,"Other/unspecified road users",0
+"South Africa",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0.3
+"South Africa",2016,"Cyclists",3.2
+"South Africa",2016,"Other/unspecified road users",13.1
+"Zambia",2013,"Drivers/passengers of 4-wheeled vehicles",48.4
+"Zambia",2013,"Cyclists",11.6
+"Zambia",2013,"Pedestrians",36.4
+"Zimbabwe",2016,"Drivers/passengers of motorized 2- or 3-wheelers",10.2
+"Zimbabwe",2016,"Cyclists",12.2
+"Zimbabwe",2016,"Pedestrians",13.7
+"Zimbabwe",2016,"Other/unspecified road users",37.2
+"Argentina",2016,"Drivers/passengers of 4-wheeled vehicles",47.2
+"Argentina",2016,"Drivers/passengers of motorized 2- or 3-wheelers",22.2
+"Argentina",2016,"Cyclists",2.4
+"Argentina",2016,"Pedestrians",8.2
+"Argentina",2016,"Other/unspecified road users",20
+"Antigua and Barbuda",2016,"Drivers/passengers of 4-wheeled vehicles",62.5
+"Antigua and Barbuda",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0
+"Antigua and Barbuda",2016,"Cyclists",12.5
+"Antigua and Barbuda",2016,"Pedestrians",25
+"Antigua and Barbuda",2016,"Other/unspecified road users",0
+"Bahamas",2013,"Drivers/passengers of 4-wheeled vehicles",57.7
+"Bahamas",2013,"Drivers/passengers of motorized 2- or 3-wheelers",17.3
+"Bahamas",2013,"Cyclists",3.8
+"Bahamas",2013,"Pedestrians",21.2
+"Belize",2016,"Drivers/passengers of 4-wheeled vehicles",18.8
+"Belize",2016,"Drivers/passengers of motorized 2- or 3-wheelers",19.8
+"Belize",2016,"Cyclists",11.9
+"Belize",2016,"Pedestrians",24.8
+"Belize",2016,"Other/unspecified road users",24.8
+"Bolivia (Plurinational State of)",2016,"Drivers/passengers of 4-wheeled vehicles",60.8
+"Bolivia (Plurinational State of)",2016,"Drivers/passengers of motorized 2- or 3-wheelers",19.7
+"Bolivia (Plurinational State of)",2016,"Pedestrians",2.5
+"Bolivia (Plurinational State of)",2016,"Other/unspecified road users",17.1
+"Brazil",2016,"Drivers/passengers of 4-wheeled vehicles",23.2
+"Brazil",2016,"Drivers/passengers of motorized 2- or 3-wheelers",31.4
+"Brazil",2016,"Cyclists",3.4
+"Brazil",2016,"Pedestrians",18.1
+"Brazil",2016,"Other/unspecified road users",24
+"Barbados",2016,"Drivers/passengers of 4-wheeled vehicles",33.3
+"Barbados",2016,"Drivers/passengers of motorized 2- or 3-wheelers",33.3
+"Barbados",2016,"Cyclists",0
+"Barbados",2016,"Pedestrians",22.2
+"Barbados",2016,"Other/unspecified road users",11.1
+"Canada",2016,"Drivers/passengers of 4-wheeled vehicles",64.3
+"Canada",2016,"Drivers/passengers of motorized 2- or 3-wheelers",10.8
+"Canada",2016,"Cyclists",2.5
+"Canada",2016,"Pedestrians",15.2
+"Canada",2016,"Other/unspecified road users",7.2
+"Chile",2016,"Drivers/passengers of 4-wheeled vehicles",42
+"Chile",2016,"Drivers/passengers of motorized 2- or 3-wheelers",8.7
+"Chile",2016,"Cyclists",5.7
+"Chile",2016,"Pedestrians",36
+"Chile",2016,"Other/unspecified road users",7.7
+"Colombia",2016,"Drivers/passengers of 4-wheeled vehicles",8.4
+"Colombia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",52.5
+"Colombia",2016,"Cyclists",5.3
+"Colombia",2016,"Pedestrians",26
+"Colombia",2016,"Other/unspecified road users",7.8
+"Costa Rica",2016,"Drivers/passengers of 4-wheeled vehicles",24
+"Costa Rica",2016,"Drivers/passengers of motorized 2- or 3-wheelers",40
+"Costa Rica",2016,"Cyclists",10.4
+"Costa Rica",2016,"Pedestrians",24.7
+"Costa Rica",2016,"Other/unspecified road users",0.9
+"Cuba",2016,"Drivers/passengers of 4-wheeled vehicles",10.1
+"Cuba",2016,"Drivers/passengers of motorized 2- or 3-wheelers",15.6
+"Cuba",2016,"Cyclists",9.9
+"Cuba",2016,"Pedestrians",33.2
+"Cuba",2016,"Other/unspecified road users",31.2
+"Dominica",2016,"Drivers/passengers of 4-wheeled vehicles",10
+"Dominica",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0
+"Dominica",2016,"Cyclists",60
+"Dominica",2016,"Pedestrians",10
+"Dominica",2016,"Other/unspecified road users",20
+"Dominican Republic",2016,"Drivers/passengers of 4-wheeled vehicles",11
+"Dominican Republic",2016,"Drivers/passengers of motorized 2- or 3-wheelers",67
+"Dominican Republic",2016,"Cyclists",1
+"Dominican Republic",2016,"Pedestrians",17
+"Dominican Republic",2016,"Other/unspecified road users",4
+"Ecuador",2016,"Drivers/passengers of 4-wheeled vehicles",5.2
+"Ecuador",2016,"Drivers/passengers of motorized 2- or 3-wheelers",19.1
+"Ecuador",2016,"Cyclists",1.8
+"Ecuador",2016,"Pedestrians",19.8
+"Ecuador",2016,"Other/unspecified road users",54
+"Guatemala",2016,"Drivers/passengers of 4-wheeled vehicles",19.4
+"Guatemala",2016,"Drivers/passengers of motorized 2- or 3-wheelers",32.7
+"Guatemala",2016,"Cyclists",0.4
+"Guatemala",2016,"Pedestrians",39.2
+"Guatemala",2016,"Other/unspecified road users",8.3
+"Guyana",2016,"Drivers/passengers of 4-wheeled vehicles",24.2
+"Guyana",2016,"Drivers/passengers of motorized 2- or 3-wheelers",21.9
+"Guyana",2016,"Cyclists",12.5
+"Guyana",2016,"Pedestrians",29.7
+"Guyana",2016,"Other/unspecified road users",11.7
+"Honduras",2016,"Drivers/passengers of 4-wheeled vehicles",18.6
+"Honduras",2016,"Drivers/passengers of motorized 2- or 3-wheelers",24.3
+"Honduras",2016,"Cyclists",4.1
+"Honduras",2016,"Pedestrians",27.9
+"Honduras",2016,"Other/unspecified road users",25.1
+"Jamaica",2016,"Drivers/passengers of 4-wheeled vehicles",33
+"Jamaica",2016,"Drivers/passengers of motorized 2- or 3-wheelers",28.8
+"Jamaica",2016,"Cyclists",8.4
+"Jamaica",2016,"Pedestrians",22.2
+"Jamaica",2016,"Other/unspecified road users",7.7
+"Saint Lucia",2016,"Drivers/passengers of 4-wheeled vehicles",41.2
+"Saint Lucia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",20
+"Saint Lucia",2016,"Cyclists",13.3
+"Saint Lucia",2016,"Pedestrians",13.3
+"Saint Lucia",2016,"Other/unspecified road users",6.7
+"Mexico",2016,"Drivers/passengers of 4-wheeled vehicles",18.4
+"Mexico",2016,"Drivers/passengers of motorized 2- or 3-wheelers",9.6
+"Mexico",2016,"Cyclists",1.1
+"Mexico",2016,"Pedestrians",28.5
+"Mexico",2016,"Other/unspecified road users",42.4
+"Nicaragua",2013,"Drivers/passengers of 4-wheeled vehicles",23.2
+"Nicaragua",2013,"Drivers/passengers of motorized 2- or 3-wheelers",26
+"Nicaragua",2013,"Cyclists",5.5
+"Nicaragua",2013,"Pedestrians",32.8
+"Nicaragua",2013,"Other/unspecified road users",12.5
+"Panama",2016,"Drivers/passengers of 4-wheeled vehicles",52.5
+"Panama",2016,"Drivers/passengers of motorized 2- or 3-wheelers",4.4
+"Panama",2016,"Cyclists",5.7
+"Panama",2016,"Pedestrians",40
+"Panama",2016,"Other/unspecified road users",17.5
+"Peru",2016,"Drivers/passengers of 4-wheeled vehicles",0.3
+"Peru",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0.6
+"Peru",2016,"Cyclists",0.2
+"Peru",2016,"Pedestrians",8.1
+"Peru",2016,"Other/unspecified road users",88.6
+"Paraguay",2016,"Drivers/passengers of 4-wheeled vehicles",2.5
+"Paraguay",2016,"Drivers/passengers of motorized 2- or 3-wheelers",52.2
+"Paraguay",2016,"Cyclists",0.2
+"Paraguay",2016,"Pedestrians",22.5
+"Paraguay",2016,"Other/unspecified road users",8.7
+"El Salvador",2016,"Drivers/passengers of 4-wheeled vehicles",32.1
+"El Salvador",2016,"Drivers/passengers of motorized 2- or 3-wheelers",14.2
+"El Salvador",2016,"Cyclists",1.4
+"El Salvador",2016,"Pedestrians",49
+"El Salvador",2016,"Other/unspecified road users",3.3
+"Suriname",2016,"Drivers/passengers of 4-wheeled vehicles",53.7
+"Suriname",2016,"Drivers/passengers of motorized 2- or 3-wheelers",45.9
+"Suriname",2016,"Cyclists",4.1
+"Suriname",2016,"Pedestrians",15.6
+"Suriname",2016,"Other/unspecified road users",1.4
+"Trinidad and Tobago",2016,"Drivers/passengers of 4-wheeled vehicles",49.3
+"Trinidad and Tobago",2016,"Drivers/passengers of motorized 2- or 3-wheelers",2.2
+"Trinidad and Tobago",2016,"Cyclists",0.7
+"Trinidad and Tobago",2016,"Pedestrians",31.1
+"Trinidad and Tobago",2016,"Other/unspecified road users",8.1
+"Uruguay",2016,"Drivers/passengers of motorized 2- or 3-wheelers",45.7
+"Uruguay",2016,"Cyclists",7
+"Uruguay",2016,"Pedestrians",16.6
+"Uruguay",2016,"Other/unspecified road users",0
+"United States of America",2016,"Drivers/passengers of 4-wheeled vehicles",30.7
+"United States of America",2016,"Drivers/passengers of motorized 2- or 3-wheelers",14.2
+"United States of America",2016,"Cyclists",2.3
+"United States of America",2016,"Pedestrians",15.3
+"United States of America",2016,"Other/unspecified road users",4.2
+"Saint Vincent and the Grenadines",2013,"Pedestrians",47.1
+"United Arab Emirates",2016,"Drivers/passengers of 4-wheeled vehicles",46.2
+"United Arab Emirates",2016,"Drivers/passengers of motorized 2- or 3-wheelers",5.5
+"United Arab Emirates",2016,"Cyclists",1.5
+"United Arab Emirates",2016,"Pedestrians",24.3
+"United Arab Emirates",2016,"Other/unspecified road users",14.2
+"Bahrain",2013,"Drivers/passengers of 4-wheeled vehicles",59.3
+"Bahrain",2013,"Drivers/passengers of motorized 2- or 3-wheelers",9.1
+"Bahrain",2013,"Cyclists",5.8
+"Bahrain",2013,"Pedestrians",31.4
+"Egypt",2016,"Drivers/passengers of 4-wheeled vehicles",45.1
+"Egypt",2016,"Drivers/passengers of motorized 2- or 3-wheelers",5.5
+"Egypt",2016,"Cyclists",1.2
+"Egypt",2016,"Pedestrians",26.9
+"Egypt",2016,"Other/unspecified road users",21.2
+"Iran (Islamic Republic of)",2016,"Drivers/passengers of 4-wheeled vehicles",48.7
+"Iran (Islamic Republic of)",2016,"Drivers/passengers of motorized 2- or 3-wheelers",24.1
+"Iran (Islamic Republic of)",2016,"Cyclists",0.6
+"Iran (Islamic Republic of)",2016,"Pedestrians",21.6
+"Iran (Islamic Republic of)",2016,"Other/unspecified road users",5
+"Jordan",2016,"Drivers/passengers of 4-wheeled vehicles",71.3
+"Jordan",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0
+"Jordan",2016,"Cyclists",0
+"Jordan",2016,"Pedestrians",28.7
+"Jordan",2016,"Other/unspecified road users",0
+"Lebanon",2016,"Drivers/passengers of 4-wheeled vehicles",42.4
+"Lebanon",2016,"Drivers/passengers of motorized 2- or 3-wheelers",20.7
+"Lebanon",2016,"Pedestrians",37
+"Lebanon",2016,"Other/unspecified road users",0
+"Libya",2016,"Drivers/passengers of 4-wheeled vehicles",75
+"Libya",2016,"Drivers/passengers of motorized 2- or 3-wheelers",1.9
+"Libya",2016,"Cyclists",2.3
+"Libya",2016,"Pedestrians",20.8
+"Libya",2016,"Other/unspecified road users",0
+"Morocco",2016,"Drivers/passengers of 4-wheeled vehicles",31.2
+"Morocco",2016,"Drivers/passengers of motorized 2- or 3-wheelers",28.7
+"Morocco",2016,"Cyclists",5.9
+"Morocco",2016,"Pedestrians",26.3
+"Morocco",2016,"Other/unspecified road users",7.9
+"Oman",2016,"Drivers/passengers of motorized 2- or 3-wheelers",3.9
+"Oman",2016,"Cyclists",0.7
+"Oman",2016,"Pedestrians",22.5
+"Oman",2016,"Other/unspecified road users",8.1
+"Pakistan",2016,"Drivers/passengers of 4-wheeled vehicles",32.3
+"occupied Palestinian territory, including east Jerusalem",2016,"Drivers/passengers of 4-wheeled vehicles",26.7
+"occupied Palestinian territory, including east Jerusalem",2016,"Drivers/passengers of motorized 2- or 3-wheelers",2.5
+"occupied Palestinian territory, including east Jerusalem",2016,"Cyclists",1.9
+"occupied Palestinian territory, including east Jerusalem",2016,"Pedestrians",32.7
+"occupied Palestinian territory, including east Jerusalem",2016,"Other/unspecified road users",10.7
+"Qatar",2016,"Drivers/passengers of motorized 2- or 3-wheelers",2.2
+"Qatar",2016,"Cyclists",2.8
+"Qatar",2016,"Pedestrians",32
+"Qatar",2016,"Other/unspecified road users",14.6
+"Sudan",2016,"Drivers/passengers of 4-wheeled vehicles",33.8
+"Sudan",2016,"Pedestrians",14.9
+"Sudan",2016,"Other/unspecified road users",71.4
+"Somalia",2016,"Drivers/passengers of 4-wheeled vehicles",44.9
+"Somalia",2016,"Pedestrians",38.4
+"Syrian Arab Republic",2016,"Drivers/passengers of 4-wheeled vehicles",57.4
+"Syrian Arab Republic",2016,"Drivers/passengers of motorized 2- or 3-wheelers",6.4
+"Syrian Arab Republic",2016,"Cyclists",5.9
+"Syrian Arab Republic",2016,"Pedestrians",64.7
+"Syrian Arab Republic",2016,"Other/unspecified road users",4.2
+"Tunisia",2016,"Drivers/passengers of 4-wheeled vehicles",21.7
+"Tunisia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",22.9
+"Tunisia",2016,"Cyclists",2.5
+"Tunisia",2016,"Pedestrians",24.6
+"Tunisia",2016,"Other/unspecified road users",0.7
+"Albania",2016,"Drivers/passengers of 4-wheeled vehicles",39.4
+"Albania",2016,"Drivers/passengers of motorized 2- or 3-wheelers",11.9
+"Albania",2016,"Cyclists",7.8
+"Albania",2016,"Pedestrians",38.7
+"Albania",2016,"Other/unspecified road users",2.2
+"Andorra",2013,"Drivers/passengers of motorized 2- or 3-wheelers",50
+"Andorra",2013,"Pedestrians",50
+"Armenia",2016,"Drivers/passengers of 4-wheeled vehicles",59.6
+"Armenia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",1.5
+"Armenia",2016,"Cyclists",0.4
+"Armenia",2016,"Pedestrians",34.8
+"Armenia",2016,"Other/unspecified road users",3.7
+"Austria",2016,"Drivers/passengers of 4-wheeled vehicles",43.8
+"Austria",2016,"Drivers/passengers of motorized 2- or 3-wheelers",22
+"Austria",2016,"Cyclists",11.1
+"Austria",2016,"Pedestrians",16.9
+"Austria",2016,"Other/unspecified road users",6.3
+"Azerbaijan",2016,"Drivers/passengers of 4-wheeled vehicles",51.8
+"Azerbaijan",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0.9
+"Azerbaijan",2016,"Cyclists",0.9
+"Azerbaijan",2016,"Pedestrians",42
+"Azerbaijan",2016,"Other/unspecified road users",4.3
+"Belgium",2016,"Drivers/passengers of 4-wheeled vehicles",57.1
+"Belgium",2016,"Drivers/passengers of motorized 2- or 3-wheelers",14.4
+"Belgium",2016,"Cyclists",11.1
+"Belgium",2016,"Pedestrians",12.2
+"Belgium",2016,"Other/unspecified road users",5
+"Bulgaria",2016,"Drivers/passengers of 4-wheeled vehicles",63.8
+"Bulgaria",2016,"Drivers/passengers of motorized 2- or 3-wheelers",7.8
+"Bulgaria",2016,"Cyclists",4.9
+"Bulgaria",2016,"Pedestrians",16.7
+"Bulgaria",2016,"Other/unspecified road users",6.8
+"Belarus",2016,"Drivers/passengers of 4-wheeled vehicles",48.5
+"Belarus",2016,"Cyclists",9.2
+"Belarus",2016,"Pedestrians",41.3
+"Belarus",2016,"Other/unspecified road users",1
+"Switzerland",2016,"Drivers/passengers of 4-wheeled vehicles",18.8
+"Switzerland",2016,"Drivers/passengers of motorized 2- or 3-wheelers",22.7
+"Switzerland",2016,"Cyclists",15.3
+"Switzerland",2016,"Pedestrians",23.1
+"Switzerland",2016,"Other/unspecified road users",4.2
+"Cyprus",2016,"Drivers/passengers of 4-wheeled vehicles",34.8
+"Cyprus",2016,"Drivers/passengers of motorized 2- or 3-wheelers",21.7
+"Cyprus",2016,"Cyclists",4.3
+"Cyprus",2016,"Pedestrians",30.4
+"Cyprus",2016,"Other/unspecified road users",8.7
+"Czechia",2016,"Drivers/passengers of 4-wheeled vehicles",53.7
+"Czechia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",10.3
+"Czechia",2016,"Cyclists",8.7
+"Czechia",2016,"Pedestrians",21.3
+"Czechia",2016,"Other/unspecified road users",6.1
+"Germany",2016,"Drivers/passengers of 4-wheeled vehicles",47.8
+"Germany",2016,"Drivers/passengers of motorized 2- or 3-wheelers",18.8
+"Germany",2016,"Cyclists",12.3
+"Germany",2016,"Pedestrians",15.3
+"Germany",2016,"Other/unspecified road users",5.9
+"Denmark",2016,"Drivers/passengers of 4-wheeled vehicles",48.3
+"Denmark",2016,"Drivers/passengers of motorized 2- or 3-wheelers",16.1
+"Denmark",2016,"Cyclists",14.7
+"Denmark",2016,"Pedestrians",17.1
+"Denmark",2016,"Other/unspecified road users",3.8
+"Spain",2016,"Drivers/passengers of 4-wheeled vehicles",6.2
+"Spain",2016,"Drivers/passengers of motorized 2- or 3-wheelers",21.9
+"Spain",2016,"Cyclists",3.7
+"Spain",2016,"Pedestrians",29.2
+"Spain",2016,"Other/unspecified road users",6.4
+"Estonia",2016,"Drivers/passengers of 4-wheeled vehicles",52.1
+"Estonia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",1.4
+"Estonia",2016,"Cyclists",7
+"Estonia",2016,"Pedestrians",31
+"Estonia",2016,"Other/unspecified road users",8.5
+"Finland",2016,"Drivers/passengers of 4-wheeled vehicles",64.7
+"Finland",2016,"Drivers/passengers of motorized 2- or 3-wheelers",8.7
+"Finland",2016,"Cyclists",9.5
+"Finland",2016,"Pedestrians",10.7
+"Finland",2016,"Other/unspecified road users",6.3
+"France",2016,"Drivers/passengers of 4-wheeled vehicles",54.4
+"France",2016,"Drivers/passengers of motorized 2- or 3-wheelers",21.1
+"France",2016,"Cyclists",4.7
+"France",2016,"Pedestrians",16.1
+"France",2016,"Other/unspecified road users",3.8
+"United Kingdom of Great Britain and Northern Ireland",2016,"Drivers/passengers of 4-wheeled vehicles",38.5
+"United Kingdom of Great Britain and Northern Ireland",2016,"Drivers/passengers of motorized 2- or 3-wheelers",20.5
+"United Kingdom of Great Britain and Northern Ireland",2016,"Cyclists",5.5
+"United Kingdom of Great Britain and Northern Ireland",2016,"Pedestrians",23.7
+"United Kingdom of Great Britain and Northern Ireland",2016,"Other/unspecified road users",4.1
+"Georgia",2016,"Drivers/passengers of 4-wheeled vehicles",44.9
+"Georgia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0.5
+"Georgia",2016,"Cyclists",0.7
+"Georgia",2016,"Pedestrians",26.5
+"Georgia",2016,"Other/unspecified road users",27.4
+"Greece",2016,"Drivers/passengers of 4-wheeled vehicles",40.3
+"Greece",2016,"Drivers/passengers of motorized 2- or 3-wheelers",32.4
+"Greece",2016,"Cyclists",2.2
+"Greece",2016,"Pedestrians",18.1
+"Greece",2016,"Other/unspecified road users",7
+"Croatia",2016,"Drivers/passengers of 4-wheeled vehicles",48.2
+"Croatia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",16
+"Croatia",2016,"Cyclists",8.8
+"Croatia",2016,"Pedestrians",21.8
+"Croatia",2016,"Other/unspecified road users",5.2
+"Hungary",2016,"Drivers/passengers of 4-wheeled vehicles",44.3
+"Hungary",2016,"Drivers/passengers of motorized 2- or 3-wheelers",10.5
+"Hungary",2016,"Cyclists",12
+"Hungary",2016,"Pedestrians",25
+"Hungary",2016,"Other/unspecified road users",8.1
+"Ireland",2016,"Drivers/passengers of 4-wheeled vehicles",62.2
+"Ireland",2016,"Drivers/passengers of motorized 2- or 3-wheelers",11.7
+"Ireland",2016,"Cyclists",5.3
+"Ireland",2016,"Pedestrians",18.6
+"Ireland",2016,"Other/unspecified road users",2.1
+"Iceland",2016,"Drivers/passengers of 4-wheeled vehicles",72.2
+"Iceland",2016,"Drivers/passengers of motorized 2- or 3-wheelers",11.1
+"Iceland",2016,"Cyclists",0
+"Iceland",2016,"Pedestrians",11.1
+"Iceland",2016,"Other/unspecified road users",5.6
+"Israel",2016,"Drivers/passengers of 4-wheeled vehicles",46.3
+"Israel",2016,"Drivers/passengers of motorized 2- or 3-wheelers",12.2
+"Israel",2016,"Cyclists",2.7
+"Israel",2016,"Pedestrians",28.7
+"Israel",2016,"Other/unspecified road users",10.1
+"Italy",2016,"Drivers/passengers of 4-wheeled vehicles",42.8
+"Italy",2016,"Drivers/passengers of motorized 2- or 3-wheelers",25.6
+"Italy",2016,"Cyclists",7.3
+"Italy",2016,"Pedestrians",17.6
+"Italy",2016,"Other/unspecified road users",6.7
+"Kazakhstan",2016,"Drivers/passengers of 4-wheeled vehicles",59.8
+"Kazakhstan",2016,"Drivers/passengers of motorized 2- or 3-wheelers",4.3
+"Kazakhstan",2016,"Cyclists",1.7
+"Kazakhstan",2016,"Pedestrians",30.9
+"Kazakhstan",2016,"Other/unspecified road users",3.3
+"Kyrgyzstan",2016,"Drivers/passengers of 4-wheeled vehicles",27.6
+"Kyrgyzstan",2016,"Drivers/passengers of motorized 2- or 3-wheelers",2.1
+"Kyrgyzstan",2016,"Cyclists",0.2
+"Kyrgyzstan",2016,"Pedestrians",40
+"Kyrgyzstan",2016,"Other/unspecified road users",30
+"Lithuania",2016,"Drivers/passengers of 4-wheeled vehicles",46.4
+"Lithuania",2016,"Drivers/passengers of motorized 2- or 3-wheelers",5.7
+"Lithuania",2016,"Cyclists",8.9
+"Lithuania",2016,"Pedestrians",38
+"Lithuania",2016,"Other/unspecified road users",1
+"Luxembourg",2016,"Drivers/passengers of 4-wheeled vehicles",62.5
+"Luxembourg",2016,"Drivers/passengers of motorized 2- or 3-wheelers",9.4
+"Luxembourg",2016,"Cyclists",3.1
+"Luxembourg",2016,"Pedestrians",25
+"Luxembourg",2016,"Other/unspecified road users",0
+"Latvia",2016,"Drivers/passengers of 4-wheeled vehicles",44.9
+"Latvia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",12
+"Latvia",2016,"Cyclists",4.4
+"Latvia",2016,"Pedestrians",34.8
+"Latvia",2016,"Other/unspecified road users",3.8
+"Republic of Moldova",2016,"Drivers/passengers of 4-wheeled vehicles",46.1
+"Republic of Moldova",2016,"Drivers/passengers of motorized 2- or 3-wheelers",4.3
+"Republic of Moldova",2016,"Cyclists",1.4
+"Republic of Moldova",2016,"Pedestrians",18.5
+"Republic of Moldova",2016,"Other/unspecified road users",58.1
+"North Macedonia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",9.5
+"North Macedonia",2016,"Cyclists",6.1
+"North Macedonia",2016,"Pedestrians",33.1
+"North Macedonia",2016,"Other/unspecified road users",4.7
+"Malta",2016,"Drivers/passengers of 4-wheeled vehicles",18.2
+"Malta",2016,"Drivers/passengers of motorized 2- or 3-wheelers",40.9
+"Malta",2016,"Cyclists",4.5
+"Malta",2016,"Pedestrians",27.3
+"Malta",2016,"Other/unspecified road users",9.1
+"Montenegro",2016,"Drivers/passengers of 4-wheeled vehicles",64.6
+"Montenegro",2016,"Drivers/passengers of motorized 2- or 3-wheelers",15.4
+"Montenegro",2016,"Cyclists",1.5
+"Montenegro",2016,"Pedestrians",13.8
+"Montenegro",2016,"Other/unspecified road users",4.6
+"Netherlands (Kingdom of the)",2016,"Drivers/passengers of 4-wheeled vehicles",38
+"Netherlands (Kingdom of the)",2016,"Drivers/passengers of motorized 2- or 3-wheelers",21.4
+"Netherlands (Kingdom of the)",2016,"Cyclists",29.8
+"Netherlands (Kingdom of the)",2016,"Pedestrians",9.2
+"Netherlands (Kingdom of the)",2016,"Other/unspecified road users",1.6
+"Norway",2016,"Drivers/passengers of 4-wheeled vehicles",64.7
+"Norway",2016,"Drivers/passengers of motorized 2- or 3-wheelers",17
+"Norway",2016,"Cyclists",8.9
+"Norway",2016,"Pedestrians",11.9
+"Norway",2016,"Other/unspecified road users",12.6
+"Poland",2016,"Drivers/passengers of 4-wheeled vehicles",47.6
+"Poland",2016,"Drivers/passengers of motorized 2- or 3-wheelers",11.2
+"Poland",2016,"Cyclists",9
+"Poland",2016,"Pedestrians",28.7
+"Poland",2016,"Other/unspecified road users",4.3
+"Portugal",2016,"Drivers/passengers of 4-wheeled vehicles",48.3
+"Portugal",2016,"Drivers/passengers of motorized 2- or 3-wheelers",18.3
+"Portugal",2016,"Cyclists",5.9
+"Portugal",2016,"Pedestrians",21.8
+"Portugal",2016,"Other/unspecified road users",6.4
+"Romania",2016,"Drivers/passengers of 4-wheeled vehicles",57.6
+"Romania",2016,"Drivers/passengers of motorized 2- or 3-wheelers",4.4
+"Romania",2016,"Cyclists",9
+"Romania",2016,"Pedestrians",37.2
+"Romania",2016,"Other/unspecified road users",3.3
+"Russian Federation",2016,"Drivers/passengers of motorized 2- or 3-wheelers",5.9
+"Russian Federation",2016,"Cyclists",2
+"Russian Federation",2016,"Pedestrians",29.2
+"Russian Federation",2016,"Other/unspecified road users",5.3
+"Serbia",2016,"Drivers/passengers of 4-wheeled vehicles",46.7
+"Serbia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",8.7
+"Serbia",2016,"Cyclists",9.4
+"Serbia",2016,"Pedestrians",20
+"Serbia",2016,"Other/unspecified road users",12.5
+"Slovakia",2016,"Drivers/passengers of 4-wheeled vehicles",46.9
+"Slovakia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",8.7
+"Slovakia",2016,"Cyclists",7.6
+"Slovakia",2016,"Pedestrians",16.9
+"Slovakia",2016,"Other/unspecified road users",4.4
+"Slovenia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",19.2
+"Slovenia",2016,"Cyclists",10
+"Slovenia",2016,"Other/unspecified road users",6.9
+"Sweden",2016,"Drivers/passengers of 4-wheeled vehicles",34.7
+"Sweden",2016,"Drivers/passengers of motorized 2- or 3-wheelers",16.3
+"Sweden",2016,"Cyclists",8.1
+"Sweden",2016,"Other/unspecified road users",6.3
+"Tajikistan",2016,"Drivers/passengers of 4-wheeled vehicles",12.3
+"Tajikistan",2016,"Cyclists",2.3
+"Tajikistan",2016,"Pedestrians",40.3
+"Tajikistan",2016,"Other/unspecified road users",0
+"Turkmenistan",2016,"Drivers/passengers of 4-wheeled vehicles",21.3
+"Türkiye",2016,"Drivers/passengers of motorized 2- or 3-wheelers",14.9
+"Türkiye",2016,"Cyclists",1.9
+"Türkiye",2016,"Pedestrians",23.4
+"Türkiye",2016,"Other/unspecified road users",38
+"Ukraine",2016,"Drivers/passengers of 4-wheeled vehicles",54.5
+"Ukraine",2016,"Drivers/passengers of motorized 2- or 3-wheelers",8.7
+"Ukraine",2016,"Cyclists",7.1
+"Ukraine",2016,"Pedestrians",41.9
+"Ukraine",2016,"Other/unspecified road users",8.4
+"India",2016,"Drivers/passengers of 4-wheeled vehicles",17.9
+"India",2016,"Drivers/passengers of motorized 2- or 3-wheelers",39.6
+"India",2016,"Cyclists",1.7
+"India",2016,"Pedestrians",10.4
+"India",2016,"Other/unspecified road users",30.4
+"Sri Lanka",2016,"Drivers/passengers of motorized 2- or 3-wheelers",50.8
+"Sri Lanka",2016,"Cyclists",8.1
+"Sri Lanka",2016,"Pedestrians",28.6
+"Sri Lanka",2016,"Other/unspecified road users",5.7
+"Maldives",2016,"Drivers/passengers of 4-wheeled vehicles",0
+"Maldives",2016,"Drivers/passengers of motorized 2- or 3-wheelers",75
+"Maldives",2016,"Cyclists",0
+"Maldives",2016,"Pedestrians",25
+"Maldives",2016,"Other/unspecified road users",0
+"Myanmar",2016,"Drivers/passengers of 4-wheeled vehicles",10.8
+"Myanmar",2016,"Drivers/passengers of motorized 2- or 3-wheelers",64.8
+"Myanmar",2016,"Cyclists",3.1
+"Myanmar",2016,"Pedestrians",14.2
+"Myanmar",2016,"Other/unspecified road users",7.1
+"Thailand",2016,"Drivers/passengers of 4-wheeled vehicles",46.6
+"Thailand",2016,"Drivers/passengers of motorized 2- or 3-wheelers",74.4
+"Thailand",2016,"Cyclists",3.5
+"Thailand",2016,"Pedestrians",7.6
+"Thailand",2016,"Other/unspecified road users",2.3
+"Timor-Leste",2016,"Drivers/passengers of 4-wheeled vehicles",17.3
+"Australia",2016,"Drivers/passengers of 4-wheeled vehicles",60.9
+"Australia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",19.3
+"Australia",2016,"Cyclists",2.2
+"Australia",2016,"Pedestrians",14
+"Australia",2016,"Other/unspecified road users",3.5
+"Cook Islands",2016,"Drivers/passengers of 4-wheeled vehicles",20
+"Cook Islands",2016,"Drivers/passengers of motorized 2- or 3-wheelers",80
+"Cook Islands",2016,"Cyclists",0
+"Cook Islands",2016,"Pedestrians",0
+"Cook Islands",2016,"Other/unspecified road users",0
+"Fiji",2016,"Drivers/passengers of 4-wheeled vehicles",63.3
+"Fiji",2016,"Pedestrians",36.7
+"Fiji",2016,"Other/unspecified road users",0
+"Micronesia (Federated States of)",2016,"Drivers/passengers of 4-wheeled vehicles",50
+"Micronesia (Federated States of)",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0
+"Micronesia (Federated States of)",2016,"Cyclists",0
+"Micronesia (Federated States of)",2016,"Pedestrians",50
+"Micronesia (Federated States of)",2016,"Other/unspecified road users",0
+"Indonesia",2016,"Drivers/passengers of 4-wheeled vehicles",4.9
+"Indonesia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",73.6
+"Indonesia",2016,"Cyclists",3.2
+"Indonesia",2016,"Pedestrians",15.5
+"Indonesia",2016,"Other/unspecified road users",2.7
+"Japan",2016,"Drivers/passengers of 4-wheeled vehicles",32.4
+"Japan",2016,"Drivers/passengers of motorized 2- or 3-wheelers",17.2
+"Japan",2016,"Cyclists",15.1
+"Japan",2016,"Pedestrians",35
+"Japan",2016,"Other/unspecified road users",1
+"Cambodia",2016,"Drivers/passengers of 4-wheeled vehicles",6.2
+"Cambodia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",73.5
+"Cambodia",2016,"Cyclists",2.3
+"Cambodia",2016,"Pedestrians",9.6
+"Cambodia",2016,"Other/unspecified road users",8.4
+"Kiribati",2016,"Drivers/passengers of 4-wheeled vehicles",40
+"Kiribati",2016,"Drivers/passengers of motorized 2- or 3-wheelers",20
+"Kiribati",2016,"Cyclists",0
+"Kiribati",2016,"Pedestrians",40
+"Kiribati",2016,"Other/unspecified road users",0
+"Republic of Korea",2016,"Drivers/passengers of 4-wheeled vehicles",17.6
+"Republic of Korea",2016,"Drivers/passengers of motorized 2- or 3-wheelers",20.5
+"Republic of Korea",2016,"Cyclists",5.9
+"Republic of Korea",2016,"Pedestrians",39.9
+"Republic of Korea",2016,"Other/unspecified road users",33.7
+"Marshall Islands",2013,"Drivers/passengers of 4-wheeled vehicles",33.3
+"Marshall Islands",2013,"Drivers/passengers of motorized 2- or 3-wheelers",66.7
+"Mongolia",2016,"Drivers/passengers of 4-wheeled vehicles",39.3
+"Mongolia",2016,"Drivers/passengers of motorized 2- or 3-wheelers",18.6
+"Mongolia",2016,"Cyclists",1.2
+"Mongolia",2016,"Pedestrians",28.7
+"Mongolia",2016,"Other/unspecified road users",12.2
+"New Zealand",2016,"Drivers/passengers of 4-wheeled vehicles",68.5
+"New Zealand",2016,"Drivers/passengers of motorized 2- or 3-wheelers",15.9
+"New Zealand",2016,"Cyclists",1.5
+"New Zealand",2016,"Pedestrians",7.6
+"New Zealand",2016,"Other/unspecified road users",6.4
+"Philippines",2016,"Drivers/passengers of 4-wheeled vehicles",46.8
+"Philippines",2016,"Drivers/passengers of motorized 2- or 3-wheelers",4.7
+"Philippines",2016,"Cyclists",0.1
+"Philippines",2016,"Pedestrians",1
+"Philippines",2016,"Other/unspecified road users",93.9
+"Palau",2013,"Pedestrians",100
+"Papua New Guinea",2016,"Drivers/passengers of 4-wheeled vehicles",16.5
+"Papua New Guinea",2016,"Pedestrians",47.5
+"Papua New Guinea",2016,"Other/unspecified road users",0
+"Singapore",2016,"Drivers/passengers of 4-wheeled vehicles",50.2
+"Singapore",2016,"Drivers/passengers of motorized 2- or 3-wheelers",44
+"Singapore",2016,"Cyclists",14.2
+"Singapore",2016,"Pedestrians",29.1
+"Singapore",2016,"Other/unspecified road users",0.7
+"Tonga",2016,"Drivers/passengers of 4-wheeled vehicles",57.8
+"Tonga",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0
+"Tonga",2016,"Cyclists",0
+"Tonga",2016,"Pedestrians",27.8
+"Tonga",2016,"Other/unspecified road users",5.6
+"Viet Nam",2016,"Drivers/passengers of 4-wheeled vehicles",52.2
+"Samoa",2016,"Drivers/passengers of motorized 2- or 3-wheelers",0
+"Samoa",2016,"Cyclists",5.9
+"Samoa",2016,"Other/unspecified road users",5.9
