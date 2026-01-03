@@ -1,340 +1,138 @@
-library(readxl)
+library(readr)
 library(dplyr)
 library(janitor)
-deaths <- read_excel("final_cleaned_deaths.xlsx") %>% clean_names()
-user_types <- read_excel("final_cleaned_user_types.xlsx") %>% clean_names()
-standards <- read_excel("final_cleaned_standards.xlsx") %>% clean_names()
-deaths_clean <- deaths %>%
-  remove_empty("cols") %>%     # remove empty columns
-  remove_empty("rows") %>%     # remove empty rows
-  mutate(across(where(is.character), trimws))  # clean spaces
-user_types_clean <- user_types %>%
-  remove_empty("cols") %>%
-  remove_empty("rows") %>%
-  mutate(across(where(is.character), trimws))
-standards_clean <- standards %>%
-  remove_empty("cols") %>%
-  remove_empty("rows") %>%
-  mutate(across(where(is.character), trimws))
-standards_raw <- read_excel("final_cleaned_standards.xlsx") %>%
-  clean_names()
-# Columns now: location, dim1, value, fact_value_translation_id
-
-standards_clean <- standards_raw %>%
-  select(
-    country = location,
-    standard = dim1,
-    status = value     # "Yes"/"No"
+library(stringr)
+carac_raw <- read_csv("caracteristiques-2019.csv", show_col_types = FALSE) %>% clean_names()
+veh_raw   <- read_csv("vehicules-2019.csv", show_col_types = FALSE) %>% clean_names()
+usa_raw   <- read_csv("usagers-2019.csv", show_col_types = FALSE) %>% clean_names()
+cat("carac rows:", nrow(carac_raw), "cols:", ncol(carac_raw), "\n")
+cat("veh rows:", nrow(veh_raw), "cols:", ncol(veh_raw), "\n")
+cat("usa rows:", nrow(usa_raw), "cols:", ncol(usa_raw), "\n")
+carac_raw %>% select(num_acc, jour, mois, an, hrmn, lum, dep, com, agg) %>% glimpse()
+veh_raw   %>% select(num_acc, id_vehicule, catv) %>% glimpse()
+usa_raw   %>% select(num_acc, id_vehicule, grav, catu, sexe, secu1) %>% glimpse()
+carac_clean <- carac_raw %>%
+  transmute(
+    num_acc,
+    dep,
+    agg,
+    lum,
+    jour,
+    mois,
+    an,
+    hrmn
   )
-# -> one row per (country, standard), status = Yes/No
-user_types_raw <- read_excel("final_cleaned_user_types.xlsx") %>%
-  clean_names()
-# Columns: location, period, is_latest_year, dim1, fact_value_numeric, value
-
-user_types_clean <- user_types_raw %>%
-  select(
-    country = location,
-    year = period,
-    road_user_type = dim1,
-    percent = fact_value_numeric
-  ) %>%
-  mutate(
-    year = as.integer(year),
-    percent = as.numeric(percent)
+veh_clean <- veh_raw %>%
+  transmute(
+    num_acc,
+    id_vehicule,
+    catv
   )
 
-
-deaths_raw <- read_excel("final_cleaned_deaths.xlsx") %>%
-  clean_names()
-# Columns: location, fact_value_numeric, fact_value_numeric_low,
-#          fact_value_numeric_high, value
-
-deaths_clean <- deaths_raw %>%
-  select(
-    country = location,
-    deaths = fact_value_numeric,
-    deaths_ci_low = fact_value_numeric_low,
-    deaths_ci_high = fact_value_numeric_high
-  ) %>%
-  mutate(
-    deaths = as.numeric(deaths),
-    deaths_ci_low = as.numeric(deaths_ci_low),
-    deaths_ci_high = as.numeric(deaths_ci_high)
+usa_clean <- usa_raw %>%
+  transmute(
+    num_acc,
+    id_vehicule,
+    grav,
+    catu,
+    sexe,
+    secu1
   )
-
-glimpse(standards_clean)
-glimpse(user_types_clean)
-glimpse(deaths_clean)
-# I jsut did this to make its working
-standards_clean <- standards_clean %>%
-  filter(!is.na(country), !is.na(standard), !is.na(status)) %>%
+carac_clean <- carac_clean %>%
   mutate(
-    country = trimws(country),
-    standard = trimws(standard),
-    status = trimws(status),
-    status = factor(status, levels = c("No", "Yes"))
-  ) %>%
-  arrange(country, standard)
-
-user_types_clean <- user_types_clean %>%
-  filter(!is.na(country), !is.na(road_user_type)) %>%
-  mutate(
-    country = trimws(country),
-    road_user_type = trimws(road_user_type),
-    year = as.integer(year),
-    percent = as.numeric(percent)
-  ) %>%
-  filter(!is.na(percent), percent >= 0, percent <= 100) %>%
-  arrange(country, year, road_user_type)
-
-deaths_clean <- deaths_clean %>%
-  mutate(
-    country = trimws(country),
-    deaths = as.numeric(deaths),
-    deaths_ci_low = as.numeric(deaths_ci_low),
-    deaths_ci_high = as.numeric(deaths_ci_high)
-  ) %>%
-  filter(!is.na(country), !is.na(deaths), deaths >= 0) %>%
-  arrange(desc(deaths)) %>%
-  mutate(rank_deaths = row_number())
-## GG plot time? 
-library(ggplot2)
-# Top 10 countries by deaths
-deaths_clean %>%
-  arrange(desc(deaths)) %>%
-  slice_head(n = 10) %>%
-  ggplot(aes(x = reorder(country, deaths), y = deaths)) +
-  geom_col() +
-  coord_flip() +
-  labs(
-    title = "Top 10 countries by number of road traffic deaths",
-    x = "Country",
-    y = "Estimated number of deaths"
-  )
-# now for shiny! maybe?
-install.packages("shiny")
-library(shiny)
-# ============================
-# SHINY APP STARTS HERE
-# ============================
-
-ui <- fluidPage(
-  titlePanel("Global Public Health: Road Traffic Injuries"),
-  
-  tabsetPanel(
-    # ------------------------
-    # TAB 1: Road Traffic Deaths
-    # ------------------------
-    tabPanel("Deaths",
-             sidebarLayout(
-               sidebarPanel(
-                 sliderInput(
-                   "top_n",
-                   "Show top N countries by deaths:",
-                   min = 5,
-                   max = 30,
-                   value = 10,
-                   step = 1
-                 ),
-                 sliderInput(
-                   "min_deaths",
-                   "Minimum deaths to include:",
-                   min = 0,
-                   max = max(deaths_clean$deaths, na.rm = TRUE),
-                   value = 0,
-                   step = 1000
-                 ),
-                 textInput(
-                   "country_search",
-                   "Filter by country name (contains):",
-                   value = ""
-                 )
-               ),
-               mainPanel(
-                 h3("Countries with highest road traffic deaths"),
-                 plotOutput("deaths_plot"),
-                 br(),
-                 tableOutput("deaths_table")
-               )
-             )
+    area = case_when(
+      agg == 1 ~ "Rural (outside built-up)",
+      agg == 2 ~ "Urban (built-up)",
+      TRUE ~ NA_character_
     ),
-    
-    # ------------------------
-    # TAB 2: Road User Types
-    # ------------------------
-    tabPanel("Road User Types",
-             sidebarLayout(
-               sidebarPanel(
-                 selectInput(
-                   "ut_country",
-                   "Select country:",
-                   choices = sort(unique(user_types_clean$country)),
-                   selected = sort(unique(user_types_clean$country))[1]
-                 ),
-                 sliderInput(
-                   "ut_year",
-                   "Select year:",
-                   min = min(user_types_clean$year, na.rm = TRUE),
-                   max = max(user_types_clean$year, na.rm = TRUE),
-                   value = max(user_types_clean$year, na.rm = TRUE),
-                   step = 1,
-                   sep = ""
-                 ),
-                 checkboxGroupInput(
-                   "ut_types",
-                   "Select road user types:",
-                   choices = sort(unique(user_types_clean$road_user_type)),
-                   selected = sort(unique(user_types_clean$road_user_type))
-                 )
-               ),
-               mainPanel(
-                 h3("Distribution of road traffic deaths by road user type"),
-                 plotOutput("user_types_plot"),
-                 br(),
-                 tableOutput("user_types_table")
-               )
-             )
+    light = case_when(
+      lum == 1 ~ "Day",
+      lum == 2 ~ "Dawn/Dusk",
+      lum %in% c(3,4,5) ~ "Night",
+      TRUE ~ NA_character_
     ),
-    
-    # ------------------------
-    # TAB 3: Vehicle Standards
-    # ------------------------
-    tabPanel("Vehicle Standards",
-             sidebarLayout(
-               sidebarPanel(
-                 selectInput(
-                   "vs_countries",
-                   "Select country/countries:",
-                   choices = sort(unique(standards_clean$country)),
-                   selected = sort(unique(standards_clean$country))[1],
-                   multiple = TRUE
-                 ),
-                 checkboxGroupInput(
-                   "vs_status",
-                   "Include standards with status:",
-                   choices = c("Yes", "No"),
-                   selected = c("Yes", "No")
-                 ),
-                 textInput(
-                   "vs_search",
-                   "Filter standards by keyword (optional):",
-                   value = ""
-                 )
-               ),
-               mainPanel(
-                 h3("Vehicle safety standards"),
-                 plotOutput("standards_plot"),
-                 br(),
-                 tableOutput("standards_table")
-               )
-             )
+    # hrmn in this dataset is a fraction of the day (0-1). We'll keep it numeric.
+    hrmn = as.numeric(hrmn),
+    hour = if_else(!is.na(hrmn), floor(hrmn * 24), NA_real_),
+    time_of_day = case_when(
+      hour >= 6  & hour < 12 ~ "Morning",
+      hour >= 12 & hour < 18 ~ "Afternoon",
+      hour >= 18 & hour < 22 ~ "Evening",
+      hour >= 22 | hour < 6  ~ "Night",
+      TRUE ~ NA_character_
     )
   )
-)
 
-server <- function(input, output, session) {
-  
-  # TAB 1: Deaths
-  deaths_filtered <- reactive({
-    df <- deaths_clean
-    
-    df <- df %>%
-      filter(deaths >= input$min_deaths)
-    
-    if (input$country_search != "") {
-      pattern <- tolower(input$country_search)
-      df <- df %>%
-        filter(grepl(pattern, tolower(country)))
-    }
-    
-    df <- df %>%
-      arrange(desc(deaths)) %>%
-      slice_head(n = input$top_n)
-    
-    df
-  })
-  
-  output$deaths_plot <- renderPlot({
-    df <- deaths_filtered()
-    req(nrow(df) > 0)
-    
-    ggplot(df, aes(x = reorder(country, deaths), y = deaths)) +
-      geom_col() +
-      coord_flip() +
-      labs(
-        title = "Top countries by number of road traffic deaths",
-        x = "Country",
-        y = "Estimated number of deaths"
-      )
-  })
-  
-  output$deaths_table <- renderTable({
-    deaths_filtered()
-  })
-  
-  # TAB 2: Road User Types
-  user_types_filtered <- reactive({
-    user_types_clean %>%
-      filter(
-        country == input$ut_country,
-        year == input$ut_year,
-        road_user_type %in% input$ut_types
-      )
-  })
-  
-  output$user_types_plot <- renderPlot({
-    df <- user_types_filtered()
-    req(nrow(df) > 0)
-    
-    ggplot(df, aes(x = road_user_type, y = percent)) +
-      geom_col() +
-      coord_flip() +
-      labs(
-        title = paste("Road traffic deaths by road user type -",
-                      input$ut_country, input$ut_year),
-        x = "Road user type",
-        y = "Percentage of deaths"
-      )
-  })
-  
-  output$user_types_table <- renderTable({
-    user_types_filtered()
-  })
-  
-  # TAB 3: Vehicle Standards
-  standards_filtered <- reactive({
-    df <- standards_clean %>%
-      filter(country %in% input$vs_countries,
-             status %in% input$vs_status)
-    
-    if (input$vs_search != "") {
-      pattern <- tolower(input$vs_search)
-      df <- df %>%
-        filter(grepl(pattern, tolower(standard)))
-    }
-    
-    df
-  })
-  
-  output$standards_plot <- renderPlot({
-    df <- standards_filtered()
-    req(nrow(df) > 0)
-    
-    ggplot(df, aes(x = standard, fill = status)) +
-      geom_bar() +
-      coord_flip() +
-      labs(
-        title = "Vehicle safety standards by status",
-        x = "Standard",
-        y = "Count of entries",
-        fill = "Status"
-      )
-  })
-  
-  output$standards_table <- renderTable({
-    standards_filtered()
-  })
-}
+veh_clean <- veh_clean %>%
+  mutate(
+    catv = str_pad(as.character(catv), 2, pad = "0"),
+    vehicle_group = case_when(
+      catv %in% c("01", "80") ~ "Bicycle / e-bike",
+      catv %in% c("02","30","31","32","33","34","41","42","43") ~ "Motorcycle / scooter",
+      catv == "07" ~ "Car",
+      catv == "10" ~ "Van / light truck",
+      catv %in% c("13","14","15","16","17") ~ "Heavy vehicle",
+      catv %in% c("37","38") ~ "Bus / coach",
+      TRUE ~ "Other/Unknown"
+    ),
+    motorization = if_else(vehicle_group == "Bicycle / e-bike", "Non-motorized", "Motorized"),
+    vehicle_mass = if_else(vehicle_group %in% c("Heavy vehicle","Bus / coach"), "Heavy", "Light")
+  )
 
-shinyApp(ui, server)
+usa_clean <- usa_clean %>%
+  mutate(
+    severity = case_when(
+      grav == 1 ~ "Unharmed",
+      grav == 2 ~ "Killed",
+      grav == 3 ~ "Hospitalized",
+      grav == 4 ~ "Slight injury",
+      TRUE ~ NA_character_
+    ),
+    severe = case_when(
+      grav %in% c(2,3) ~ 1L,
+      grav %in% c(1,4) ~ 0L,
+      TRUE ~ NA_integer_
+    ),
+    user_role = case_when(
+      catu == 1 ~ "Driver",
+      catu == 2 ~ "Passenger",
+      catu == 3 ~ "Pedestrian",
+      TRUE ~ NA_character_
+    ),
+    sex = case_when(
+      sexe == 1 ~ "Male",
+      sexe == 2 ~ "Female",
+      TRUE ~ NA_character_
+    ),
+    safety_equipment_1 = case_when(
+      secu1 == 0 ~ "No equipment",
+      secu1 == 1 ~ "Seatbelt",
+      secu1 == 2 ~ "Helmet",
+      secu1 == 3 ~ "Child restraint",
+      secu1 == 4 ~ "Reflective vest",
+      secu1 == 5 ~ "Airbag (2/3W)",
+      secu1 == 6 ~ "Gloves (2/3W)",
+      secu1 == 7 ~ "Gloves + Airbag",
+      secu1 == 9 ~ "Other",
+      TRUE ~ "Unknown/Not specified"
+    )
+  )
 
+cat("\n--- Simple checks ---\n")
+
+carac_clean %>%
+  count(area, light, sort = TRUE) %>%
+  print(n = 10)
+
+veh_clean %>%
+  count(vehicle_group, sort = TRUE) %>%
+  print(n = 10)
+
+usa_clean %>%
+  count(severity, user_role, sort = TRUE) %>%
+  print(n = 10)
+
+#  SAVE CLEAN TABLES 
+write_csv(carac_clean, "carac_clean_step1.csv")
+write_csv(veh_clean,   "veh_clean_step1.csv")
+write_csv(usa_clean,   "usa_clean_step1.csv")
