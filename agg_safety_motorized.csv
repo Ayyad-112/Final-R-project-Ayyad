@@ -1,0 +1,20 @@
+vehicle_group,safety_equipment_1,n_users,severe_n,severe_rate
+Car,No equipment,4238,2171,0.5122699386503068
+Heavy vehicle,No equipment,204,97,0.47549019607843135
+Motorcycle / scooter,No equipment,651,281,0.43164362519201227
+Van / light truck,No equipment,484,203,0.4194214876033058
+Other/Unknown,Helmet,299,118,0.39464882943143814
+Motorcycle / scooter,Helmet,21743,7168,0.3296693188612427
+Other/Unknown,No equipment,674,196,0.29080118694362017
+Heavy vehicle,Unknown/Not specified,358,97,0.2709497206703911
+Motorcycle / scooter,Unknown/Not specified,1759,472,0.26833428084138716
+Car,Unknown/Not specified,11523,2637,0.22884665451705286
+Van / light truck,Unknown/Not specified,1396,277,0.1984240687679083
+Other/Unknown,Unknown/Not specified,1344,242,0.1800595238095238
+Bus / coach,Unknown/Not specified,650,78,0.12
+Car,Seatbelt,68357,7647,0.11186857234811358
+Car,Child restraint,887,88,0.0992108229988726
+Other/Unknown,Seatbelt,1498,141,0.09412550066755675
+Van / light truck,Seatbelt,6850,413,0.06029197080291971
+Heavy vehicle,Seatbelt,2777,135,0.04861361181130717
+Bus / coach,Seatbelt,1061,17,0.016022620169651274

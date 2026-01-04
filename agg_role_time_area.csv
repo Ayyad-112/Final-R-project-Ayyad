@@ -1,0 +1,28 @@
+user_role,time_of_day,area,n_users,severe_n,severe_rate
+Pedestrian,Night,Rural (outside built-up),171,139,0.8128654970760234
+Pedestrian,Evening,Rural (outside built-up),179,123,0.6871508379888268
+Pedestrian,Morning,Rural (outside built-up),187,110,0.5882352941176471
+Pedestrian,Afternoon,Rural (outside built-up),197,101,0.5126903553299492
+Pedestrian,Night,Urban (built-up),653,241,0.36906584992343033
+Pedestrian,Morning,Urban (built-up),3395,1143,0.3366715758468336
+Driver,Night,Rural (outside built-up),4513,1513,0.3352537115001108
+Pedestrian,Afternoon,Urban (built-up),4215,1261,0.2991696322657177
+Pedestrian,Evening,Urban (built-up),2247,646,0.28749443702714733
+Passenger,Night,Rural (outside built-up),2435,668,0.2743326488706366
+Driver,Afternoon,Rural (outside built-up),13853,3728,0.26911138381578
+Driver,Evening,Rural (outside built-up),7941,2084,0.2624354615287747
+Driver,NA,NA,191,47,0.24607329842931938
+Driver,Morning,Rural (outside built-up),10282,2473,0.24051740906438437
+Pedestrian,NA,NA,21,5,0.23809523809523808
+Passenger,Afternoon,Rural (outside built-up),4794,1078,0.22486441385064665
+Passenger,Morning,Rural (outside built-up),2736,600,0.21929824561403508
+Passenger,Evening,Rural (outside built-up),2795,574,0.20536672629695885
+Passenger,NA,NA,51,9,0.17647058823529413
+Driver,Night,Urban (built-up),6744,1131,0.16770462633451957
+Passenger,Night,Urban (built-up),2660,400,0.15037593984962405
+Driver,Evening,Urban (built-up),13843,1610,0.11630426930578631
+Driver,Afternoon,Urban (built-up),23509,2436,0.10361989025479604
+Passenger,Evening,Urban (built-up),2749,262,0.0953073845034558
+Driver,Morning,Urban (built-up),16480,1490,0.0904126213592233
+Passenger,Morning,Urban (built-up),2083,175,0.08401344215074412
+Passenger,Afternoon,Urban (built-up),4053,309,0.07623982235381199

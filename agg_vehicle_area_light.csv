@@ -1,0 +1,50 @@
+vehicle_group,area,light,n_users,severe_n,severe_rate
+Bicycle / e-bike,Rural (outside built-up),Night,106,71,0.6698113207547169
+Bicycle / e-bike,Rural (outside built-up),Day,751,497,0.6617842876165113
+Motorcycle / scooter,Rural (outside built-up),Dawn/Dusk,427,233,0.5456674473067916
+Motorcycle / scooter,Rural (outside built-up),Night,1217,647,0.5316351684470009
+Motorcycle / scooter,Rural (outside built-up),Day,5002,2599,0.5195921631347461
+Bicycle / e-bike,NA,NA,11,4,0.36363636363636365
+Bicycle / e-bike,Rural (outside built-up),Dawn/Dusk,43,15,0.3488372093023256
+Motorcycle / scooter,NA,NA,43,15,0.3488372093023256
+Other/Unknown,Rural (outside built-up),Night,196,67,0.34183673469387754
+Bus / coach,NA,NA,6,2,0.3333333333333333
+Other/Unknown,Rural (outside built-up),Dawn/Dusk,54,16,0.2962962962962963
+Motorcycle / scooter,Urban (built-up),Dawn/Dusk,996,285,0.286144578313253
+Other/Unknown,Rural (outside built-up),Day,618,175,0.28317152103559873
+Motorcycle / scooter,Urban (built-up),Night,4873,1378,0.28278268007387647
+Car,Rural (outside built-up),Dawn/Dusk,2447,682,0.2787086228034328
+Heavy vehicle,Urban (built-up),Dawn/Dusk,49,13,0.2653061224489796
+Car,Rural (outside built-up),Night,11106,2851,0.25670808571943093
+Motorcycle / scooter,Urban (built-up),Day,11734,2842,0.2422021476052497
+Other/Unknown,NA,NA,13,3,0.23076923076923078
+Bicycle / e-bike,Urban (built-up),Day,3594,809,0.22509738452977185
+Car,Rural (outside built-up),Day,22128,4612,0.2084237165582068
+Van / light truck,Rural (outside built-up),Night,974,203,0.20841889117043122
+Bicycle / e-bike,Urban (built-up),Dawn/Dusk,267,55,0.20599250936329588
+Bicycle / e-bike,Urban (built-up),Night,757,155,0.2047556142668428
+Car,NA,NA,171,34,0.19883040935672514
+Other/Unknown,Urban (built-up),Night,745,132,0.17718120805369128
+Van / light truck,NA,NA,17,3,0.17647058823529413
+Other/Unknown,Urban (built-up),Dawn/Dusk,176,30,0.17045454545454544
+Van / light truck,Rural (outside built-up),Dawn/Dusk,238,39,0.1638655462184874
+Other/Unknown,Urban (built-up),Day,2071,287,0.1385803959439884
+Heavy vehicle,Rural (outside built-up),Night,465,64,0.13763440860215054
+Van / light truck,Rural (outside built-up),Day,2086,274,0.13135186960690318
+Heavy vehicle,Urban (built-up),Day,942,121,0.12845010615711253
+Bus / coach,Urban (built-up),Dawn/Dusk,67,8,0.11940298507462686
+Car,Urban (built-up),Night,13977,1604,0.11475996279602203
+Heavy vehicle,Rural (outside built-up),Dawn/Dusk,146,15,0.10273972602739725
+Car,Urban (built-up),Dawn/Dusk,2994,286,0.09552438209752839
+Van / light truck,Urban (built-up),Dawn/Dusk,328,31,0.09451219512195122
+Bus / coach,Urban (built-up),Night,211,19,0.09004739336492891
+Bus / coach,Urban (built-up),Day,1113,90,0.08086253369272237
+Car,Urban (built-up),Day,32430,2589,0.07983348751156337
+Van / light truck,Urban (built-up),Night,1132,90,0.07950530035335689
+Heavy vehicle,Urban (built-up),Night,160,12,0.075
+Heavy vehicle,Rural (outside built-up),Day,1598,114,0.07133917396745933
+Van / light truck,Urban (built-up),Day,4015,268,0.06674968866749689
+Bus / coach,Rural (outside built-up),Night,85,4,0.047058823529411764
+Bus / coach,Rural (outside built-up),Day,354,13,0.03672316384180791
+Bus / coach,Rural (outside built-up),Dawn/Dusk,42,0,0
+Heavy vehicle,NA,NA,2,0,0
