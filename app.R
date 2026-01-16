@@ -326,8 +326,7 @@ ui <- fluidPage(
                mainPanel(
                  h4("Severe injury rate by vehicle group"),
                  plotOutput("plot_vehicle", height = 450),
-                 br(),
-                 tableOutput("table_vehicle")
+            
                )
              )
     ),
@@ -366,8 +365,7 @@ ui <- fluidPage(
                mainPanel(
                  h4("Severe injury rate by time of day and user role"),
                  plotOutput("plot_role_time", height = 450),
-                 br(),
-                 tableOutput("table_role_time")
+                
                )
              )
     ),
@@ -396,8 +394,7 @@ ui <- fluidPage(
                mainPanel(
                  h4("Severe injury rate by safety equipment (motorized users)"),
                  plotOutput("plot_safety", height = 450),
-                 br(),
-                 tableOutput("table_safety")
+               
                )
              )
     )
